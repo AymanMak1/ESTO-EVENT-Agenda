@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./imgs/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  display: block;
+  width: 200px;
+  margin-top: 16px;
+}
+
+a {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: rgb(169, 4, 20);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  transition: all 0.4s;
+}
+a:hover {
+  color: #333;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#calendar {
+  font-weight: bold;
+}
+
+#calendar th {
+  background: linear-gradient(#222121, rgb(169, 4, 20));
+  color: white;
+}
+input {
+  width: 150px;
+  height: 30px;
+}
+
+.fc-unthemed td.fc-today {
+}
